@@ -9,4 +9,8 @@ https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/D
 <img width="1512" height="796" alt="image" src="https://github.com/user-attachments/assets/6633c753-22ba-4c15-abae-3a9184182cf1" />
 <img width="1511" height="799" alt="image" src="https://github.com/user-attachments/assets/69839502-1d8c-43b4-a42e-e4e51914134b" />
 https://36kgywkvnlkwdy46v7tukw.streamlit.app
+<img width="1010" height="598" alt="image" src="https://github.com/user-attachments/assets/16d77de5-0238-413a-985a-8822dd689b93" />
+<img width="891" height="491" alt="image" src="https://github.com/user-attachments/assets/94c3ebac-1d87-4ad4-820d-ac4dd8f695e2" />
+<img width="887" height="491" alt="image" src="https://github.com/user-attachments/assets/eca01af5-46ee-4c03-acd8-8b228aa43885" />
+<img width="841" height="423" alt="image" src="https://github.com/user-attachments/assets/5dfcb77b-c754-4fe1-b996-7d101bb3febc" />
 https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz#scrollTo=m5GA9tBR0l7u&fullscreenOutput=true 
