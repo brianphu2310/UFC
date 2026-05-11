@@ -1,3 +1,4 @@
+🥊 UFC Stance Intelligence — From the Gym to the Data
 <img width="4096" height="2304" alt="image" src="https://github.com/user-attachments/assets/8667ef13-757c-4df0-bf67-339ec9aceac7" />
 <img width="940" height="695" alt="image" src="https://github.com/user-attachments/assets/7c3d69b0-6240-45b5-a007-8603a453b1f1" />
 <img width="579" height="409" alt="image" src="https://github.com/user-attachments/assets/427e2590-0ee9-4c01-8f3e-2e1d00939cfe" />
