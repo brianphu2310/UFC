@@ -249,16 +249,17 @@ Brian Phu — Data Analyst & Southpaw Kickboxer at UFC Gym Townhall, Sydney
 ## Screenshots & Demo
 
 Below are screenshots of each component in action.
+
 *Excel Dataset:*
 <img width="940" height="695" alt="image" src="https://github.com/user-attachments/assets/7c3d69b0-6240-45b5-a007-8603a453b1f1" />
 
 *Pivot Table:*
 <img width="579" height="409" alt="image" src="https://github.com/user-attachments/assets/427e2590-0ee9-4c01-8f3e-2e1d00939cfe" />
 
-*Country and Contient BreakDown by Vlookup*
+*Country and Contient BreakDown by Vlookup:*
 <img width="729" height="595" alt="image" src="https://github.com/user-attachments/assets/7820f2cb-41f2-4a62-bf5e-72303e41fd7b" />
 
-*My Group Stats*
+*My Group Stats:*
 <img width="864" height="309" alt="image" src="https://github.com/user-attachments/assets/627d64e0-9ee9-404b-854a-05b4c25c8719" />
 
 
