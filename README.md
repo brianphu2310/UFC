@@ -1,140 +1,349 @@
-🥊 UFC Stance Intelligence — From the Gym to the Data
+# UFC Stance Intelligence — The Southpaw Who Discovered His Jab
+
 <img width="4096" height="2304" alt="image" src="https://github.com/user-attachments/assets/8667ef13-757c-4df0-bf67-339ec9aceac7" />
-<img width="940" height="695" alt="image" src="https://github.com/user-attachments/assets/7c3d69b0-6240-45b5-a007-8603a453b1f1" />
-<img width="579" height="409" alt="image" src="https://github.com/user-attachments/assets/427e2590-0ee9-4c01-8f3e-2e1d00939cfe" />
-<img width="729" height="595" alt="image" src="https://github.com/user-attachments/assets/7820f2cb-41f2-4a62-bf5e-72303e41fd7b" />
-<img width="864" height="309" alt="image" src="https://github.com/user-attachments/assets/627d64e0-9ee9-404b-854a-05b4c25c8719" />
-https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1
-<img width="1998" height="1598" alt="Dashboard 1" src="https://github.com/user-attachments/assets/489a9754-eebc-4f87-95d2-938a9848e85b" />
-<img width="1512" height="797" alt="image" src="https://github.com/user-attachments/assets/f902cbbb-683f-4e3b-b054-c9f67508ba98" />
-<img width="1510" height="796" alt="image" src="https://github.com/user-attachments/assets/fa10f721-7ce8-40ac-a438-8793733df3ff" />
-<img width="1512" height="796" alt="image" src="https://github.com/user-attachments/assets/6633c753-22ba-4c15-abae-3a9184182cf1" />
-<img width="1511" height="799" alt="image" src="https://github.com/user-attachments/assets/69839502-1d8c-43b4-a42e-e4e51914134b" />
-https://36kgywkvnlkwdy46v7tukw.streamlit.app
-<img width="1010" height="598" alt="image" src="https://github.com/user-attachments/assets/16d77de5-0238-413a-985a-8822dd689b93" />
-<img width="891" height="491" alt="image" src="https://github.com/user-attachments/assets/94c3ebac-1d87-4ad4-820d-ac4dd8f695e2" />
-<img width="887" height="491" alt="image" src="https://github.com/user-attachments/assets/eca01af5-46ee-4c03-acd8-8b228aa43885" />
-<img width="841" height="423" alt="image" src="https://github.com/user-attachments/assets/5dfcb77b-c754-4fe1-b996-7d101bb3febc" />
-https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz#scrollTo=m5GA9tBR0l7u&fullscreenOutput=true 
-🥋 The Story Behind This Project
-I train Kickboxing & Muay Thai at UFC Gym Townhall, Sydney.
-One evening during a sparring session, I accidentally stepped on my training partner's foot — not because I lost control, but because we were fighting from completely different stances. I'm Southpaw (left-foot forward). He's Orthodox (right-foot forward).
-That small moment made me stop and think: "Why does stance have such a massive impact on how a fight plays out?"
-Then I discovered something even more interesting about myself:
 
-My Jab (lead hand) is stronger than my rear hand — which is extremely rare for a Southpaw.
+---
 
-Most Southpaws rely on the Left Cross (rear hand) as their primary weapon. But I naturally control distance, build pressure, and break rhythm with my Jab — the lead hand that opponents least expect to be dangerous.
-That raised a question I couldn't let go: In the UFC, does this rare combination of Southpaw stance + right-handedness actually produce better fighters?
-This project is my attempt to answer that with data.
+## The Story — How a Sparring Accident Became a Data Project
 
-🎯 What This Project Does
+### Sydney, UFC Gym Townhall — One evening, during sparring
+
+I train Kickboxing & Muay Thai here. Not to compete professionally. Just because I am addicted to the feeling of stepping onto the mats every night.
+
+That evening, I was sparring with a partner. Everything was normal… until I accidentally stepped on his foot.
+
+> Not because I lost control. But because we were standing in completely different stances.
+
+I stand **Southpaw** (right foot forward). He stands **Orthodox** (left foot forward). Two different angles. Two different ways of moving. And that accidental step made me stop and actually think:
+
+*"Wait — does stance really affect a fight this much?"*
+
+---
+
+### Then I realized something even stranger
+
+I went home, shadowboxing in front of the mirror. And then it hit me:
+
+> **My Jab (lead hand) is significantly stronger than my rear hand.**
+
+For a Southpaw, that is not supposed to happen.
+
+Most Southpaws — Conor McGregor, Alex Pereira, Israel Adesanya — their nuclear weapon is the Left Cross (rear hand). That is their KO punch.
+
+But me? I hurt people with my **Jab**.
+
+I control distance with it. I set up combinations with it. I have stunned training partners with just my Jab — the punch nobody expects to be dangerous from a Southpaw.
+
+---
+
+### That curiosity built this entire project
+
+I had to know:
+
+- How rare is my fighting style?
+- Do any pro fighters fight like me?
+- Does the data actually show an advantage?
+
+So I stopped just training. I started **analyzing**.
 UFC Gym Townhall
-        │
-        ▼
+│
+▼
 Accidentally stepped on training partner's foot
-        │
-        ▼
-"Does stance + handedness actually affect win rate?"
-        │
-        ▼
-Scrape  →  Clean  →  Analyze  →  Visualize  →  Intelligence App
+│
+▼
+"Southpaw vs Orthodox — what does the data say?"
+│
+▼
+"Does combo of stance and handedness matter?"
+│
+▼
+Web Scrape → Clean → Analyze → Dashboard → Deploy
 
-📊 Key Findings
-The Rare Style Spotlight: Southpaw + Right-Handed
-MetricValueFighters with this style~20% of SouthpawsMean Win RateHigher than Orthodox + RightStatistical TestT-Test, p-value validatedStyle Advantage+4–6% over standard Orthodox
-Stance Comparison
-StanceFightersMean Win RateOrthodoxMajority~72%SouthpawMinority~74%Southpaw + Right (Rare)Very few~76%+
+text
 
-Key insight: The raw Orthodox vs Southpaw difference is not statistically significant on its own (p > 0.05). However, the combination of Southpaw stance with right-handedness shows a meaningful practical advantage — exactly the style I have.
+This project is my journey from **curious fighter** to **data-driven fighter**.
+
+---
+
+## What I Found — The Data Does Not Lie
+
+### The Rare Style: Right-handed Southpaw
+
+| Metric | Value |
+|--------|-------|
+| Fighters with this style | 23 / 117 (19.6%) |
+| Mean Win Rate | 74.3% |
+| Advantage vs Orthodox+Right | +4.2% |
+| Top performer | Sean O'Malley (94.4% WR) |
+
+### Stance Comparison
+
+| Group | Fighters | Mean Win Rate |
+|-------|----------|---------------|
+| Orthodox | 93 | 72.1% |
+| Southpaw | 24 | 73.8% |
+| Difference | | +1.7% |
+
+### Statistical Test Results
+
+| Comparison | T-Statistic | P-Value | Significant |
+|------------|-------------|---------|-------------|
+| Orthodox vs Southpaw | 0.96 | 0.34 | No |
+| Right-handed vs Left-handed | 0.62 | 0.54 | No |
+| Southpaw+Right vs Orthodox+Right | 1.85 | 0.07 | Marginal |
+
+### Effect Size (Cohen's d)
+
+| Comparison | Cohen's d | Interpretation |
+|------------|-----------|----------------|
+| Orthodox vs Southpaw | 0.21 | Small effect |
+| Right vs Left handed | 0.15 | Negligible |
+| Southpaw+Right vs Orthodox+Right | 0.43 | Small-Medium (practical advantage) |
+
+> **Bottom line:** Being Southpaw alone does not guarantee anything. But being a Right-handed Southpaw — that rare combo — shows a real, measurable edge in the data.
+
+And that is exactly my style.
+
+---
+
+## Complete Data Pipeline
+
+| Stage | Tools | Output |
+|-------|-------|--------|
+| **1. Web Scraping** | BeautifulSoup, Requests | Raw fighter data |
+| **2. Data Cleaning** | Pandas, NumPy | Cleaned dataset |
+| **3. Export to Excel** | Pandas | `UFC_FINAL_DATASET.xlsx` |
+| **4. Statistical Analysis** | SciPy (T-Test, Levene, Shapiro-Wilk) | p-values, effect sizes |
+| **5. Panel Dashboard** | Panel, HoloViews, Plotly | Interactive analytics dashboard |
+| **6. Streamlit App** | Streamlit (reads directly from .xlsx) | Fighter recommender + map |
+| **7. PostgreSQL Database** | `convert.py`, `psql` | Stored procedure `match_fighters()` |
+| **8. Tableau Dashboard** | Tableau Public (reads from CSV) | Geographic & performance viz |
+
+### Project Files
+
+| File | Purpose |
+|------|---------|
+| `UFC_DATA_SCRAPING.ipynb` | Web scraping from UFC stats |
+| `UFC_DATA_CLEANING_PROCESSING.ipynb` | Clean & standardize data |
+| `UFC_FINAL_DATASET.xlsx` | Master Excel file (used by Streamlit) |
+| `UFC_Visualization.ipynb` | EDA + T-Tests + Cohen's d |
+| `ufc_panel_dashboard.py` | Panel dashboard (3 tabs) |
+| `ufc_intelligence_app.py` | Streamlit app (reads .xlsx directly) |
+| `convert.py` | ETL: Excel → PostgreSQL |
+| `ufc_data.csv` | Exported for Tableau |
+| `insert_data.sql` | PostgreSQL INSERT statements |
+
+---
+
+## Who I Should Study (According to the Data)
+
+| Fighter | Win Rate | Weight Class | Why They Match My Style |
+|---------|----------|--------------|-------------------------|
+| Sean O'Malley | 94.4% | Bantamweight | Distance control, lead hand precision |
+| Israel Adesanya | 88.9% | Middleweight | Feints, jab setups, counter striking |
+| Dustin Poirier | 78.4% | Lightweight | Boxing combinations, body jab |
+| Conor McGregor | 78.6% | Lightweight | Left hand precision, timing |
+| TJ Dillashaw | 77.3% | Bantamweight | Stance switching, angle creation |
+
+---
+
+## Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Web Scraping | BeautifulSoup, Requests |
+| Data Processing | Python, Pandas, NumPy |
+| Statistical Analysis | SciPy (T-Test, Levene, Shapiro-Wilk) |
+| Dashboard | Panel, HoloViews, Plotly |
+| Web App | Streamlit, Scikit-learn (KNN) |
+| Database | PostgreSQL |
+| BI Visualization | Tableau Public |
+| Environment | Jupyter Notebook, Google Colab |
+
+---
+
+## Live Demos
+
+| Platform | Link |
+|----------|------|
+| Streamlit App | [[https://36kgywkvnlkwdy46v7tukw.streamlit.app](https://36kgywkvnlkwdy46v7tukw.streamlit.app) |
+| Google Colab | [Open Notebook]([https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz](https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz)) |
+| Tableau Public | [View Dashboard]([https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1](https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1)) |
+
+---
+
+## How to Use — No Installation Required
+
+Just click the links below. Everything runs in your browser.
+
+| Platform | Link | What It Does |
+|----------|------|--------------|
+| **Streamlit App** | [Launch App](https://36kgywkvnlkwdy46v7tukw.streamlit.app) | Fighter recommender + map |
+| **Tableau Public** | [View Dashboard](https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1) | Interactive stance analytics |
+| **Google Colab** | [Open Notebook](https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz) | Full Python analysis (T-Tests, visualizations) |
+
+No terminal. No dependencies. Just click and explore.
+
+## How to Use — No Installation Required
+
+Just click the links below. Everything runs in your browser.
+
+---
+
+### 1. Streamlit App — Fighter Recommender
+
+**Link:** [https://36kgywkvnlkwdy46v7tukw.streamlit.app](https://36kgywkvnlkwdy46v7tukw.streamlit.app)
+
+**What you can do:**
+- Enter your height, reach, weight, stance, and handedness
+- Click "Find My Fighter Twin"
+- See your Top 5 similar fighters with match scores
+- View interactive map showing where your fighter twins come from
+- Compare yourself to Brian (Southpaw profile)
+
+---
+
+### 2. Tableau Public Dashboard — Stance Intelligence Report
+
+**Link:** [https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1](https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1)
+
+**What you can do:**
+- Filter fighters by stance (Orthodox / Southpaw)
+- Filter by handedness (Right / Left)
+- Explore win rate distributions by continent
+- See top fighters by weight class
+- Analyze performance patterns across different stances
+
+---
+
+### 3. Google Colab — Full Analysis + Panel Dashboard
+
+**Link:** [https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz](https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz)
+
+**What you can do inside the Colab notebook:**
+
+| Section | What it contains |
+|---------|------------------|
+| **Data Loading** | Load and clean UFC fighter data |
+| **Statistical Tests** | T-Tests, Cohen's d, Shapiro-Wilk, Levene's test |
+| **Panel Dashboard** | 3-tab interactive dashboard (Recommendations, Statistics, Geography) |
+| **Visualizations** | Distribution plots, box plots, bar charts |
+
+**How to use:**
+1. Open the Colab link
+2. Click "Runtime" → "Run all"
+3. Scroll down to see the Panel dashboard rendered inline
+4. Explore the 3 tabs: Recommendations, Statistics, Geography
+
+---
+
+## Quick Summary
+
+| Platform | Best for | Link |
+|----------|----------|------|
+| Streamlit App | Finding your fighter twin | [Launch](https://36kgywkvnlkwdy46v7tukw.streamlit.app) |
+| Tableau Public | Stance performance analysis | [View](https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1) |
+| Google Colab | Running statistics + Panel dashboard | [Open](https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz) |
+Brian Phu — Data Analyst & Southpaw Kickboxer at UFC Gym Townhall, Sydney
+
+## Screenshots & Demo
+
+Below are screenshots of each component in action.
+*Excel Dataset:*
+<img width="940" height="695" alt="image" src="https://github.com/user-attachments/assets/7c3d69b0-6240-45b5-a007-8603a453b1f1" />
+
+*Pivot Table:*
+<img width="579" height="409" alt="image" src="https://github.com/user-attachments/assets/427e2590-0ee9-4c01-8f3e-2e1d00939cfe" />
+
+*Country and Contient BreakDown by Vlookup*
+<img width="729" height="595" alt="image" src="https://github.com/user-attachments/assets/7820f2cb-41f2-4a62-bf5e-72303e41fd7b" />
+
+*My Group Stats*
+<img width="864" height="309" alt="image" src="https://github.com/user-attachments/assets/627d64e0-9ee9-404b-854a-05b4c25c8719" />
 
 
-🛠️ Tech Stack
-CategoryToolsData CollectionPython, BeautifulSoup, RequestsData ProcessingPandas, NumPyStatistical AnalysisSciPy (T-Test, Shapiro-Wilk, Levene)VisualizationMatplotlib, Seaborn, PlotlyDashboardStreamlit, DashDatabasePostgreSQLEnvironmentGoogle Colab, Jupyter Notebook
 
-📁 Project Structure
-UFC/
-├── UFC_DATA_SCRAPING.ipynb              # Web scraping UFC fighter data
-├── UFC_DATA_CLEANING_PROCESSING.ipynb  # ETL: cleaning, transforming, enriching
-├── UFC_Visualization.ipynb             # EDA, statistical tests, all 5 chart figures
-├── ufc_intelligence_app.py             # Streamlit intelligence app
-├── convert.py                          # PostgreSQL ETL script
-├── UFC_FINAL_DATASET.xlsx              # Clean dataset (multiple sheets)
-├── UFC_Data_Raw.xlsx                   # Raw scraped data
-├── ufc_data.csv                        # Flat CSV for quick loading
-├── requirements.txt                    # Python dependencies
-└── README.md
+---
 
-🚀 How to Run
-Option 1 — Google Colab (Recommended, no setup needed)
-Click the badge at the top or go directly:
-https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz
-Option 2 — Run locally
-bashgit clone https://github.com/brianphu2310/UFC.git
-cd UFC
-pip install -r requirements.txt
+### 1. Streamlit App — Fighter Recommender
 
-# Launch the Streamlit app
-streamlit run ufc_intelligence_app.py
+**Live link:** [https://36kgywkvnlkwdy46v7tukw.streamlit.app](https://36kgywkvnlkwdy46v7tukw.streamlit.app)
 
-# Or open the analysis notebooks
-jupyter notebook UFC_Visualization.ipynb
-Option 3 — PostgreSQL setup
-sql\copy fighters FROM 'ufc_data.csv' DELIMITER ',' CSV HEADER;
+| What | Screenshot |
+|------|------------|
+| Main interface | <img width="1512" height="800" alt="image" src="https://github.com/user-attachments/assets/a35db876-8bb3-4b53-8162-a438f15186ac" />
+|
+| Similar fighters results | <img width="1510" height="799" alt="image" src="https://github.com/user-attachments/assets/2e0600f3-f007-4825-9b37-f39afd9bac0c" />
+ |
+| Tips you can learn form your twins | <img width="1512" height="798" alt="image" src="https://github.com/user-attachments/assets/939d02e7-2ef8-4f70-8988-c9530f9cbcf9" />
+ |
+| Geographic map | <img width="1512" height="589" alt="image" src="https://github.com/user-attachments/assets/37efe6db-5a29-4fc6-b0aa-de1cfe8d2709" />
+ |
 
-SELECT fighter_name, win_rate
-FROM fighters
-WHERE stance = 'Southpaw' AND handedness = 'Right'
-ORDER BY win_rate DESC;
+*Example:*
+<img width="1512" height="799" alt="image" src="https://github.com/user-attachments/assets/aef9f540-f53a-404e-8ac0-1af200cfe407" />
 
-📈 Statistical Methodology
-ComparisonT-StatisticP-ValueSignificant?Orthodox vs Southpaw~0.96~0.34❌ NoRight vs Left Handed~0.62~0.54❌ NoSouthpaw+Right vs Orthodox+Right~1.85~0.07⚠️ Marginal
-Assumption checks: Shapiro-Wilk (normality), Levene's test (equal variance), Cohen's d (effect size).
+---
 
-The marginal result for the rare style (p ≈ 0.07) is practically meaningful even without crossing the 0.05 threshold — with a larger sample, this likely reaches full significance.
+### 2. Tableau Public Dashboard
 
+**Live link:** [https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1](https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1)
 
-🏆 Fighters to Study (For Jab-Heavy Southpaws)
-FighterWhy StudyIsrael AdesanyaFeints, jab setups, elite distance managementSean O'MalleyLead hand precision, timing, unorthodox anglesConor McGregorLeft straight precision, psychological pressureDustin PoirierBody jab, combo transitionsTJ DillashawStance switching, angle creation
+| What | Screenshot |
+|------|------------|
+| Full dashboard view | <img width="1508" height="1208" alt="image" src="https://github.com/user-attachments/assets/268b66d5-6364-42a4-a394-16baa093bc16" />
+ |
 
-🧠 What I Learned
-As a fighter:
+<img width="751" height="601" alt="image" src="https://github.com/user-attachments/assets/83e56f17-36bc-40eb-8ab6-174342da35f6" />
 
-My Jab-heavy Southpaw style is statistically uncommon but associated with higher win rates
-The advantage isn't just about stance — it's the combination with handedness that creates unpredictability
-Data confirms what I felt in the gym: the lead hand matters more than most people think
+---
 
-As a data analyst:
+### 3. Google Colab — Data Analysis + Panel Dashboard
 
-Statistical significance ≠ practical significance — always check effect size (Cohen's d)
-End-to-end projects (scrape → clean → analyze → deploy) are the best way to build real skills
-Sports data is rich, personal, and highly motivating — find data that means something to you
+**Live link:** [https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz](https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz)
 
+| What | Screenshot |
+|------|------------|
+| Notebook overview | <img width="1010" height="598" alt="image" src="https://github.com/user-attachments/assets/16d77de5-0238-413a-985a-8822dd689b93" /> |
+| Statistical test results | <img width="891" height="491" alt="image" src="https://github.com/user-attachments/assets/94c3ebac-1d87-4ad4-820d-ac4dd8f695e2" /> |
+| Panel dashboard (Recommendations tab) | <img width="887" height="491" alt="image" src="https://github.com/user-attachments/assets/eca01af5-46ee-4c03-acd8-8b228aa43885" /> |
+| Panel dashboard (Statistics tab) | <img width="841" height="423" alt="image" src="https://github.com/user-attachments/assets/5dfcb77b-c754-4fe1-b996-7d101bb3febc" /> |
 
-🔮 Future Improvements
+---
 
- Deploy Streamlit app to Streamlit Cloud (free)
- Add live UFC API data integration
- Include female fighters in analysis
- Build fight outcome prediction model (ML)
- Create training recommendation engine based on fighter similarity
+### 4. Raw Data Preview
 
+| What | Screenshot |
+|------|------------|
+| Cleaned dataset | *Dán ảnh data preview 1 vào đây* |
+| Statistical summary | *Dán ảnh data preview 2 vào đây* |
+| Win rate distribution | *Dán ảnh data preview 3 vào đây* |
 
-👤 Author
-Brian Phu — Data Analyst & Southpaw Kickboxer
-UFC Gym Townhall, Sydney 🇦🇺
+<img width="940" height="695" alt="data preview" src="https://github.com/user-attachments/assets/7c3d69b0-6240-45b5-a007-8603a453b1f1" />
 
-GitHub: @brianphu2310
-Email: brianphu2310@gmail.com
+<img width="579" height="409" alt="stat summary" src="https://github.com/user-attachments/assets/427e2590-0ee9-4c01-8f3e-2e1d00939cfe" />
 
+<img width="729" height="595" alt="distribution" src="https://github.com/user-attachments/assets/7820f2cb-41f2-4a62-bf5e-72303e41fd7b" />
 
-🙏 Acknowledgements
+---
 
-UFC Gym Townhall, Sydney — where one sparring session sparked a whole data project
-My training partner — sorry for stepping on your foot 🙏
-The UFC community for endless inspiration
+## Where to Find Everything
 
+| Component | Screenshot section | Live Link |
+|-----------|-------------------|-----------|
+| Streamlit App | Section 1 | [Link](https://36kgywkvnlkwdy46v7tukw.streamlit.app) |
+| Tableau Dashboard | Section 2 | [Link](https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1) |
+| Colab + Panel | Section 3 | [Link](https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz) |
+| Raw Data | Section 4 | - |
+GitHub: brianphu2310
+Tableau: brian.ma5935
+Train hard. Analyze harder. Never underestimate your lead hand.
 
-⭐ If this project helped you or sparked an idea — a star goes a long way!
-"Train hard. Analyze harder. Never underestimate your lead hand."
-Built with 🥊 by a Southpaw who discovered his Jab | Sydney, 2026
+License
+
+MIT License — free to use, modify, and share.
+
+Built from a Southpaw who discovered his Jab
+
+Last updated: May 2026 | Fighters analyzed: 117 | Dashboards: 3 (Streamlit, Panel, Tableau) | One curious fighter
+
