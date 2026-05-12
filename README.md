@@ -167,8 +167,8 @@ And that is exactly my style.
 | Platform | Link |
 |----------|------|
 | Streamlit App | [[https://36kgywkvnlkwdy46v7tukw.streamlit.app](https://36kgywkvnlkwdy46v7tukw.streamlit.app) |
-| Google Colab | [Open Notebook]([https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz](https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz)) |
-| Tableau Public | [View Dashboard]([https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1](https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1)) |
+| Google Colab | [Open Notebook]([[https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz](https://colab.research.google.com/drive/1zp4jVJM39wCb73EvXKWwPtgzM1n6mwWz)] |
+| Tableau Public | [View Dashboard]([[https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1](https://public.tableau.com/app/profile/brian.ma5935/viz/UFCRECOMENDATIONENGINE/Dashboard1)] |
 
 ---
 
