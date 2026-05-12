@@ -57,7 +57,7 @@ Accidentally stepped on training partner's foot
 "Does combo of stance and handedness matter?"
 │
 ▼
-Web Scrape → Clean → Analyze → Dashboard → Deploy
+Web Scrape → Clean → Analyze → Dashboard → Deploy → Unit Test
 
 text
 
