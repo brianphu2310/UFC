@@ -272,14 +272,10 @@ Below are screenshots of each component in action.
 
 | What | Screenshot |
 |------|------------|
-| Main interface | <img width="1512" height="800" alt="image" src="https://github.com/user-attachments/assets/a35db876-8bb3-4b53-8162-a438f15186ac" />
-|
-| Similar fighters results | <img width="1510" height="799" alt="image" src="https://github.com/user-attachments/assets/2e0600f3-f007-4825-9b37-f39afd9bac0c" />
- |
-| Tips you can learn form your twins | <img width="1512" height="798" alt="image" src="https://github.com/user-attachments/assets/939d02e7-2ef8-4f70-8988-c9530f9cbcf9" />
- |
-| Geographic map | <img width="1512" height="589" alt="image" src="https://github.com/user-attachments/assets/37efe6db-5a29-4fc6-b0aa-de1cfe8d2709" />
- |
+| Main interface | <img width="1512" height="800" alt="image" src="https://github.com/user-attachments/assets/a35db876-8bb3-4b53-8162-a438f15186ac" />|
+| Similar fighters results | <img width="1510" height="799" alt="image" src="https://github.com/user-attachments/assets/2e0600f3-f007-4825-9b37-f39afd9bac0c" />|
+| Tips you can learn form your twins | <img width="1512" height="798" alt="image" src="https://github.com/user-attachments/assets/939d02e7-2ef8-4f70-8988-c9530f9cbcf9" />|
+| Geographic map | <img width="1512" height="589" alt="image" src="https://github.com/user-attachments/assets/37efe6db-5a29-4fc6-b0aa-de1cfe8d2709" />|
 
 *Example:*
 <img width="1512" height="799" alt="image" src="https://github.com/user-attachments/assets/aef9f540-f53a-404e-8ac0-1af200cfe407" />
@@ -314,17 +310,10 @@ Below are screenshots of each component in action.
 
 ### 4. Raw Data Preview
 
-| What | Screenshot |
-|------|------------|
-| Cleaned dataset | *Dán ảnh data preview 1 vào đây* |
-| Statistical summary | *Dán ảnh data preview 2 vào đây* |
-| Win rate distribution | *Dán ảnh data preview 3 vào đây* |
+<img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/f0c2019b-1856-41bc-97a9-3b7fce3c9cc9" />
+### 5. Scraping From UFCSTATS.COM
+<img width="1512" height="860" alt="image" src="https://github.com/user-attachments/assets/e2fab404-ba98-4e53-ad42-8535ae940755" />
 
-<img width="940" height="695" alt="data preview" src="https://github.com/user-attachments/assets/7c3d69b0-6240-45b5-a007-8603a453b1f1" />
-
-<img width="579" height="409" alt="stat summary" src="https://github.com/user-attachments/assets/427e2590-0ee9-4c01-8f3e-2e1d00939cfe" />
-
-<img width="729" height="595" alt="distribution" src="https://github.com/user-attachments/assets/7820f2cb-41f2-4a62-bf5e-72303e41fd7b" />
 
 ---
 
