@@ -288,8 +288,7 @@ Below are screenshots of each component in action.
 
 | What | Screenshot |
 |------|------------|
-| Full dashboard view | <img width="1508" height="1208" alt="image" src="https://github.com/user-attachments/assets/268b66d5-6364-42a4-a394-16baa093bc16" />
- |
+| Full dashboard view | <img width="1508" height="1208" alt="image" src="https://github.com/user-attachments/assets/268b66d5-6364-42a4-a394-16baa093bc16" />|
 
 <img width="751" height="601" alt="image" src="https://github.com/user-attachments/assets/83e56f17-36bc-40eb-8ab6-174342da35f6" />
 
@@ -311,7 +310,9 @@ Below are screenshots of each component in action.
 ### 4. Raw Data Preview
 
 <img width="1512" height="982" alt="image" src="https://github.com/user-attachments/assets/f0c2019b-1856-41bc-97a9-3b7fce3c9cc9" />
+
 ### 5. Scraping From UFCSTATS.COM
+
 <img width="1512" height="860" alt="image" src="https://github.com/user-attachments/assets/e2fab404-ba98-4e53-ad42-8535ae940755" />
 
 
